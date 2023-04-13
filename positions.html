@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+
+    <style>
+        .kutu {
+            width: 150px;
+            height: 150px;
+        }
+
+        #kutu1 {
+            background: lightpink;
+            width: 100%;
+            position: sticky;
+            top: 50px;
+        }
+
+        #kutu2 {
+            background: rgb(116, 199, 195);
+
+
+        }
+
+        #kutu3 {
+            background: lightblue;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nostrum facilis totam incidunt ad eum
+        iusto cum labore, repellendus alias impedit rerum iste cumque quidem non id ipsum nam odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt repudiandae nulla, veritatis pariatur earum
+        quod voluptas dignissimos corrupti eveniet sed rem quis. Ipsa in voluptatem obcaecati corporis eaque velit
+        quibusdam.</p>
+    <div class="kutu" id="kutu1">kutu1</div>
+    <div class="kutu" id="kutu2">kutu2</div>
+    <div class="kutu" id="kutu3">kutu3</div>
+
+    <div style="height: 3000px;"></div>
+
+
+</body>
+
+</html>
+
+fixed ile kutucuk sabitleyince her türlü kıpırdamadan sayfanın en sağında kalıyor
+ancak absoluete çzelliğinde ise anlık sayfanın sağ alt köşesine sabitler sayfayı aşşağıya kaydırınca yukarıda kalır
+stick özelliği ise genelde sitelerin menü barlarında kullanılır üst kısmı sabitler
+
+
+

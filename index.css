@@ -1,0 +1,54 @@
+/*Pseudo Elements*/
+
+p::first-line{
+font-weight: bold;
+color: darkred;
+word-spacing: 2px;
+letter-spacing: 2px;
+}
+
+
+
+p::first-letter{
+    font-size: 50px;
+}
+
+
+/*Pseudo Class*/
+
+ul li{
+
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:first-child{
+    background-color: aqua;
+}
+ul li:last-child{
+    background-color: blueviolet;
+}
+a:visited{
+    color: hotpink;
+}
+
+a:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+ visited yazısı ile sayfada bulunan linke tıklandığında ve ziyaret edildiğinde daha önceden tıklandığını belirticek şekilde renmk değiştirtir
+hover ise linkin üstine imleçi getirdiğinde tıklamadan arka planb ve yazı rengının değiştirilmesini sağlar
